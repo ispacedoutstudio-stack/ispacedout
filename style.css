@@ -21,9 +21,11 @@
     scroll-snap-align: start;
   }
 
-  .artcard img {
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-  }
+  
+.artcard img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: auto;
+  object-fit: contain;
+}
 }
